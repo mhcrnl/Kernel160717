@@ -1,0 +1,1 @@
+cmd_/home/mhcrnl/Documents/Kernel160717/hello-1.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/mhcrnl/Documents/Kernel160717/hello-1.ko /home/mhcrnl/Documents/Kernel160717/hello-1.o /home/mhcrnl/Documents/Kernel160717/hello-1.mod.o ;  true
