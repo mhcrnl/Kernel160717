@@ -1,9 +1,10 @@
-           # Crearea modulelor kernel in linux.
+# Crearea modulelor kernel in linux.
 
 ## Ce este un modul kernel?
-    Kernelul face legatura intre hardware si software. Kernelul este un program alcatuit din module si poate fi extins cu alte module. In urmatoarele randuri v-om scrie un modul kernel pe un sistem Fedora 24. Pentru acest lucru este nevoie de instalarea programului kernel-devel.
+Kernelul face legatura intre hardware si software. Kernelul este un program alcatuit din module si poate fi extins cu alte module. In urmatoarele randuri v-om scrie un modul kernel pe un sistem Fedora 24. Pentru acest lucru este nevoie de instalarea programului kernel-devel.
 
         sudo dnf install kernel-devel
+        
 ``` C
 /*
  * hello-1.c Cel mai simplu modul kernel.
@@ -40,4 +41,7 @@ clean:
 Rularea programului se executa in directorul curent cu comanda:
 
         make
-
+        
+        
+SITE :
+(https://linux.die.net/lkmpg/x181.html)[https://linux.die.net/lkmpg/x181.html]
